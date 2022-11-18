@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Logout </title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="static/css/style.css">
+<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+
+<style>
+ body{ 
+ margin: 0;
+ padding: 0;
+}
+#nav{
+
+background: #181719; 
+text-decoration: none;
+
+}
+
+li {
+
+display: inline;
+
+}
+ #nav ul{
+text-decoration:none;
+background-color:black;
+color: #00ffff; 
+max-height: 5rem; 
+min-height: 2rem;
+ padding-top: 5px;
+font-size: 20px;
+
+}
+
+#nav a{
+
+float: right;
+
+color:#fff;
+
+text-decoration: none;
+
+font-size:18px;
+
+padding-right: 15px;
+
+}
+
+.logoutbtn {
+
+background-color: #4CAF50;
+
+color: black;
+
+cursor: pointer;
+height: 45px;
+
+width: 100px; 
+opacity: 0.9;
+
+
+
+}
+
+#button a{ 
+text-decoration: none; 
+color: black;
+
+} 
+.loginbtn:hover {
+
+opacity: 1;
+
+}
+
+.container{
+
+display: block;
+
+text-align: center;
+
+letter-spacing: 1px;
+
+}
+p{
+
+font-size: 20px; color: #4CAF50;
+
+font-size: 25nv.
+
+}
+
+h3{
+font-size: 25px;
+
+}
+
+#img{
+
+padding: 5px;
+ background-color: white;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+<nav id="nav">
+
+<ul> SKIN DISEASE
+
+<li><a href="regiser.html">Register</a></li>
+
+<li><a href="login.html">Login</a></li>
+ <li><a href="index1.html">Home</a></li>
+<a  href="prediction.html">Prediction</a>
+<a  href="logout.html.html">Logout</a>
+
+</ul>
+
+</nav>
+
+</div>
+
+<div class="container">
+
+<img src="data:image/png;base64,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" id="img">
+
+<h3>Successfully Logged Out!</h3>
+
+<p>Login for more information</p>
+
+<button type="submit" class="logoutbtn" id="button"><a
+
+href="login.html"><b>Login</b></a></button>
+
+</div>
+
+</body>
+
+</html>
